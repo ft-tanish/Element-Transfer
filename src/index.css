@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.element-main {
+  margin: 3%;
+  display: flex;
+}
+
+.bucket {
+  margin: 5%;
+  padding: 4%;
+  border: 2px solid black;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.btn-box {
+  display: flex;
+  flex-direction: column;
+  margin: 4%;
+  padding: 4%;
+}
+
+.btn-box>button {
+  margin: 2% 0;
+  padding: 5%;
+  border: 2px solid black;
+  border-radius: 20%;
+  background: white;
+  cursor: pointer;
+}
+
+.bucket>ul>li {
+  list-style-type: none;
+  border: 1px solid black;
+  border-radius: 20%;
+  padding: 2%;
+  margin: 5% 0;
+}
